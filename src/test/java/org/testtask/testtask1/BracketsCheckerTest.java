@@ -29,7 +29,8 @@ public class BracketsCheckerTest {
                 {"([])", true},
                 {"[()]", true},
                 {"aaaa[dddd(ssss)cccc]", true},
-                {"aa[ss[dd(cc[vv)bb]nn]nnn", false}
+                {"aa[ss[dd(cc[vv)bb]nn]nnn", false},
+                {"aaaaaa", true}
         };
     }
 
